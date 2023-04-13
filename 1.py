@@ -1,6 +1,6 @@
-# print("hi, i am ashok")
+#print("hi, i am ashok")
 
-# # variable #int
+# variable #int
 
 # x = 100
 # y = "ASHOK"
