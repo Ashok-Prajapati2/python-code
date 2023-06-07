@@ -72,4 +72,4 @@ This README provides an overview of the topics covered in the " Python" section.
     Debugging Techniques:
         Tips and techniques for debugging and finding and fixing issues in your code.
 
-This section provides a solid foundation in Python programming for beginners. Each topic introduces essential concepts and techniques to help you build your Python skills.
+This section provides a solid foundation in Python programming . Each topic introduces essential concepts and techniques to help you build your Python skills.
