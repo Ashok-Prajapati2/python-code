@@ -69,3 +69,25 @@ print(6/3) # float value
 
 #round() function for float value 
 print(round(89/15 , 2))
+
+# age to days caculate
+
+age  = input("Enter your age: ")
+int_age = int(age)
+year = 90 - int_age
+days = year*365
+weeks = year * 52
+month = year * 12
+
+result = f"year {year}, days{days},weeks {weeks},month {month}"
+print(result)
+
+# bill split in between some people
+
+a = float(input("Enter total bill : "))
+b = int(input("how many people to split the bill ? : "))
+c = float(input("Enter tip : "))
+
+result = (a+c)/b
+print(result)
+
