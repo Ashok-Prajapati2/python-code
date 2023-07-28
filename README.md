@@ -22,7 +22,7 @@ This README provides an overview of the topics covered in the " Python" section.
         Converting between different data types in Python.
 
     Conditionals (IF/ELIF/ELSE):
-        Using conditional statements to make decisions in your code.
+        Using conditional statements to make decisions in my code.
 
     Logical Operators:
         Working with logical operators such as AND, OR, and NOT to create complex conditions.
@@ -70,6 +70,6 @@ This README provides an overview of the topics covered in the " Python" section.
         Understanding variable scope and the difference between local and global variables.
 
     Debugging Techniques:
-        Tips and techniques for debugging and finding and fixing issues in your code.
+        Tips and techniques for debugging and finding and fixing issues in my code.
 
 This section provides a solid foundation in Python programming . Each topic introduces essential concepts and techniques to help you build your Python skills.
