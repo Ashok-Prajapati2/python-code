@@ -2,7 +2,7 @@ import random
 import second
 
 
-print(second.pi)
+print(f"pi =  {second.pi}")
 a = random.random()
 print(a)
 
@@ -17,11 +17,11 @@ mylist = ["apple", "banana", "cherry"]
 a = random.choice(mylist)
 print(a)
 
-a = random.choices(mylist , weights= [1 , 1,10] ,k=5)
+a = random.choices(mylist, weights=[1, 1, 10], k=5)
 print(a)
 
 
-a = random.gammavariate(100 ,2)
+a = random.gammavariate(100, 2)
 print(a)
 
 
@@ -29,7 +29,7 @@ a = random.getrandbits(10)
 print(a)
 
 
-a = random.sample(range(9000000),k=5)
+a = random.sample(range(9000000), k=5)
 print(a)
 
 # random.seed(10)
@@ -38,10 +38,8 @@ print(a)
 # random.seed(10)
 # print(random.random())
 
-a = random.randrange(1,10)
+a = random.randrange(1, 10)
 print(a)
 
-a = random.randint(5,9)
+a = random.randint(5, 9)
 print(a)
-
-
