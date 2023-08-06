@@ -15,6 +15,6 @@ vertical = int(set_position[1])
 
 set_row = map[vertical-1]
 set_col = set_row[horizontal-1]
-set_row.append(value)
+set_row[horizontal-1] = value
 
 print(f" {lis1}\n {lis2} \n {lis3}")
