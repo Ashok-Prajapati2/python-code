@@ -1,6 +1,4 @@
 
-pi = 3.14
-
 # list
 
 list_is = ['item1','item2',5326]
