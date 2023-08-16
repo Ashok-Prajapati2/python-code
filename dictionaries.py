@@ -23,3 +23,10 @@ print(empty_dic)
 for n in empty_dic:
     print(n , empty_dic[n])
     
+    
+# nesting dictionary
+
+lis = [
+    {'key1': 'value1','key2': 'value2'},
+     {'key1': 'value1','key2': 'value2','key3':{'n_key': 'n_value'}}
+] 
