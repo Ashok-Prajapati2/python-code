@@ -40,7 +40,7 @@ resources = {
 def is_resouress_sufficient(drink):
     drink = drink['ingredients']
     for item in drink:
-        if resources[item] <= drink[item]:
+        if resources[item] < drink[item]:
             print(f"{item} is not sufficient")
             return False
     return True
