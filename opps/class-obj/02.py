@@ -1,5 +1,4 @@
 # constutor
-
 class Atm:
 
     def __init__(self):
@@ -25,10 +24,10 @@ class Atm:
             else:
                 print("please try again some time after")
 
+
 a = Atm()
 a.check_amount()
-
 a.deposit(1234, 1000)
 a.setpin(1212)
-a.deposit(1212,10000)
+a.deposit(1212, 10000)
 a.check_amount()
