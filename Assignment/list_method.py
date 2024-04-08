@@ -12,11 +12,11 @@ my_list.insert(2, 10)
 print("After inserting 10 at index 2:", my_list)  #  [1, 2, 10, 3, 4, 5, 6]
 
 my_list.remove(3)
-print("After removing 3:", my_list)  #  [1, 2, 10, 4, 5, 6]
+print(my_list)  #  [1, 2, 10, 4, 5, 6]
 
 popped_item = my_list.pop()
-print("Popped item:", popped_item)  #  6
-print("List after popping:", my_list)  #  [1, 2, 10, 4, 5]
+print(popped_item)  #  6
+print(my_list)  #  [1, 2, 10, 4, 5]
 
 
 my_list.clear()
@@ -51,10 +51,6 @@ print("Maximum value in the list:", max(my_list))  #  5
 print("Sum of the list elements:", sum(my_list))  #  15
 
 
-print("Any element in the list:", any(my_list))  #  True
-
-
-print("All elements in the list:", all(my_list))  #  True
 
 print("Sorted list:", sorted(my_list))  #  [1, 2, 3, 4, 5]
 
