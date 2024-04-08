@@ -71,6 +71,6 @@ print(string.partition("-"))  #  ('Hello', '-', 'World')
 words = ['Hello', 'World']
 print(' '.join(words))  #  Hello World
 
-name = "Alice"
+name = "Ashok"
 age = 30
-print("My name is {} and I am {} years old.".format(name, age))  #  My name is Alice and I am 30 years old.
+print("My name is {} and I am {} years old.".format(name, age))  #  My name is Ashok and I am 30 years old.
